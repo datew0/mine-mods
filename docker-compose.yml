@@ -10,7 +10,7 @@ minecraft-server:
     FORGE_INSTALLER_URL: "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2838/forge-1.12.2-14.23.5.2838-installer.jar"
     MAX_MEMORY: 3G
 
-  image: itzg/minecraft-server:adopt11
+  image: itzg/minecraft-server
   volumes:
           - "/etc/mc-server/data:/data"
   container_name: mc-server
