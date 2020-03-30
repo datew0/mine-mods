@@ -3,9 +3,10 @@ minecraft-server:
     - "25565:52174"
 
   environment:
-    EULA: TRUE
-    TYPE: FORGE
-    FORGEVERSION: 14.23.5.2838
+    EULA: "TRUE"
+    TYPE: "FORGE"
+    VERSION: "1.12.2"
+    FORGEVERSION: "14.23.5.2838"
 
   image: itzg/minecraft-server
   volumes:
