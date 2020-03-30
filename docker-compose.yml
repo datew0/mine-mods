@@ -1,0 +1,17 @@
+minecraft-server:
+  ports:
+    - "25565:52174"
+
+  environment:
+    EULA: TRUE
+    TYPE: FORGE
+    FORGEVERSION: 14.23.5.2838
+
+  image: itzg/minecraft-server
+  volumes:
+          - "/etc/mc-server/data:/data"
+  container_name: mc-server
+
+  tty: true
+  stdin_open: true
+  restart: always
