@@ -1,6 +1,6 @@
 minecraft-server:
   ports:
-    - "25565:52174"
+    - "52174:25565"
 
   environment:
     EULA: "TRUE"
