@@ -4,13 +4,11 @@ minecraft-server:
 
   environment:
     EULA: "TRUE"
-    TYPE: "FORGE"
-    VERSION: "1.12.2"
-    FORGEVERSION: "14.23.5.2838"
-    FORGE_INSTALLER_URL: "https://files.minecraftforge.net/maven/net/minecraftforge/forge/1.12.2-14.23.5.2838/forge-1.12.2-14.23.5.2838-installer.jar"
+    TYPE: "FABRIC"
+    VERSION: "1.15.2"
     MAX_MEMORY: 3G
 
-  image: itzg/minecraft-server
+  image: itzg/minecraft-server:adopt13
   volumes:
           - "/etc/mc-server/data:/data"
   container_name: mc-server
